@@ -12,10 +12,18 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+
+Part I
+======
+
+I had to remove the style tags in the gutenberg html files and replace them to import my .css file.
+
+I also inspected the CSS being used in the 3 html files and used that as a starting point.
+
 Resources
 ============
 
-* 
+* [Best Practices CSS])(https://1stwebdesigner.com/css-best-practices/#best-practices)
 
 
 License/Copyright
