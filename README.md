@@ -23,7 +23,7 @@ I also inspected the CSS being used in the 3 html files and used that as a start
 Resources
 ============
 
-* [Best Practices CSS])(https://1stwebdesigner.com/css-best-practices/#best-practices)
+* [Best Practices CSS](https://1stwebdesigner.com/css-best-practices/#best-practices)
 
 
 License/Copyright
