@@ -6,85 +6,166 @@ Author: Jacob Blazusiak
 
 /****** General Styles *********/
 
-/****** Header Style *********/
+/* COMPLETE:    Margin:
+                background:
+                text-align:
+                color:
+*/
+body {
 
-/****** Navigation Style *********/
+}
 
-/****** Footer Style *********/
+/* COMPLETE:    text-indent:
+                margin:
+                text-align:
+                text-indent:
+*/
+p {
 
+}
 
-/* <!-- ALICE IN WONDERLAND ORIGINAL CSS
-body { margin:5%; background:#faebd0; text-align:justify}
-P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; }
-H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
-hr  { width: 50%; text-align: center;}
-.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
-blockquote {font-size: 97%; font-style: italic; margin-left: 10%; margin-right: 10%;}
-.mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
-.toc       { margin-left: 10%; margin-bottom: .75em;}
-.toc2      { margin-left: 20%;}
-div.fig    { display:block; margin:0 auto; text-align:center; }
-div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
-.figleft   {float: left; margin-left: 0%; margin-right: 1%;}
-.figright  {float: right; margin-right: 0%; margin-left: 1%;}
-.pagenum   {display:inline; font-size: 70%; font-style:normal;
-           margin: 0; padding: 0; position: absolute; right: 1%;
-           text-align: right;}
-pre        { font-style: italic; font-size: 90%; margin-left: 10%;}
---> */
+/* COMPLETE:    text-align:
+                margin:
+*/
+h1, h2, h3, h4, h5, h6 {
 
-/* HEART OF DARKNESS ORIGINAL CSS */
-/* <style type="text/css" xml:space="preserve">
+}
 
-body { margin:5%; background:#faebd0; text-align:justify}
-P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; }
-H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
-hr  { width: 50%; text-align: center;}
-.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
-blockquote {font-size: 97%; font-style: italic; margin-left: 10%; margin-right: 10%;}
-.mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
-.toc       { margin-left: 10%; margin-bottom: .75em;}
-.toc2      { margin-left: 20%;}
-div.fig { display:block; margin:0 auto; text-align:center; }
-.figleft   {float: left; margin-left: 0%; margin-right: 1%;}
-.figright  {float: right; margin-right: 0%; margin-left: 1%;}
-.pagenum   {display:inline; font-size: 70%; font-style:normal;
-           margin: 0; padding: 0; position: absolute; right: 1%;
-           text-align: right;}
-pre     { font-style: italic; font-size: 90%; margin-left: 10%;}
+/* COMPLETE:    width:
+                text-align:
+*/
+hr {
 
-</style> */
+}
 
-/* MOBY DICK ORIGINAL CSS */
-/* 
-<style type="text/css" xml:space="preserve">
+/* COMPLETE:    font-size:
+                font-style:
+                margin:
+*/
+blockquote {
 
-body { background:#ffffff; color:black; margin-left:15%; margin-right:15%; text-align:justify }
-P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; }
-H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; }
-hr  { width: 50%; text-align: center;}
-.foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
-blockquote {font-size: 100%; margin-left: 0%; margin-right: 0%;}
-.mynote    {background-color: #DDE; color: #000; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif; font-size: 95%;}
-.toc       { margin-left: 10%; margin-bottom: .75em;}
-.toc2      { margin-left: 20%;}
-div.fig    { display:block; margin:0 auto; text-align:center; }
-div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
-.figleft   {float: left; margin-left: 0%; margin-right: 1%;}
-.figright  {float: right; margin-right: 0%; margin-left: 1%;}
-.pagenum   {display:inline; font-size: 70%; font-style:normal;
-           margin: 0; padding: 0; position: absolute; right: 1%;
-           text-align: right;}
-pre        { font-family: times new roman; font-size: 100%; margin-left: 10%;}
+}
 
-table      {margin-left: 10%;}
+/* COMPLETE:    font-size:
+                font-style:
+                margin:
+                font-family:
+*/
+pre {
 
-a:link {color:blue;
-    text-decoration:none}
-link {color:blue;
-    text-decoration:none}
-a:visited {color:blue;
-    text-decoration:none}
-a:hover {color:red}
+}
 
-</style> */
+/* COMPLETE:  
+                margin:
+*/
+table {
+
+}
+
+/* COMPLETE:    color:
+                text-decoration:
+*/
+link {
+
+}
+
+/* COMPLETE:    color:
+                text-decoration:
+*/
+a:link {
+
+}
+
+/* COMPLETE:    color:
+                text-decoration:
+*/
+a:visited {
+
+}
+
+/* COMPLETE:    color:
+*/
+a:hover {
+
+}
+
+/****** Class Style *********/
+
+/* COMPLETE:    display:
+                margin:
+                text-align:
+*/
+div.fig {
+
+}
+
+/* COMPLETE:    
+                margin:
+                text-align:
+*/
+div.middle {
+
+}
+
+/* COMPLETE:    text-align:
+                text-indent:
+                margin:
+                font-size:
+*/
+.foot {
+
+}
+
+/* COMPLETE:    background-color:
+                color:
+                padding:
+                font-family:
+                margin:
+                font-size:
+*/
+.mynote {
+
+}
+
+/* COMPLETE:    
+                margin:
+*/
+.toc {
+
+}
+
+/* COMPLETE:    
+                margin:
+*/
+.toc2 {
+
+}
+
+/* COMPLETE:    float:
+                margin:
+*/
+.figleft {
+
+}
+
+/* COMPLETE:    float:
+                margin:
+*/
+.figright {
+
+}
+
+/* COMPLETE:    display:
+                font-size:
+                font-style:
+                margin:
+                padding:
+                position:
+                right:
+                text-align:
+*/
+.pagenum {
+
+}
+
+/* EXTRAS */
