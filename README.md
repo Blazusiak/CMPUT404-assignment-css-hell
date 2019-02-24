@@ -25,6 +25,7 @@ Resources
 
 * [Best Practices CSS](https://1stwebdesigner.com/css-best-practices/#best-practices)
 * [Old Looking Page](https://codepen.io/efost/pen/rrjvkk)
+* [General HTML/CSS Lookup](https://www.w3schools.com)
 
 
 License/Copyright
