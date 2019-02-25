@@ -3,3 +3,117 @@ Theme Name: Good Theme
 Description: Good Looking Profile Page
 Author: Jacob Blazusiak
 */
+
+body {
+    margin: 0;
+    background: #222;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #009688;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1 {
+    float: left;
+    padding: 10px 0;
+    color: #222;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    position: relative;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #222;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+#profile-picture {  
+    border-radius: 25px;
+    background-color: #009688;
+    padding: 3px;
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+
+p {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+#list-float {
+    width: 40%; 
+    float: left;
+}
+
+#list-float-right-img {
+    margin-right: 12.3%;
+    float: right;
+}
+
+#clear-float {
+    clear: both;
+}

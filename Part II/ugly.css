@@ -3,3 +3,122 @@ Theme Name: Ugly Theme
 Description: Ugly Looking Profile Page
 Author: Jacob Blazusiak
 */
+
+
+body {
+    margin: 0;
+    background-image: url("profile_picture.jpg");
+    background-size: 30px 40px;
+    color: orange;
+    font-weight: 300;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: red;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1 {
+    float: left;
+    padding: 10px 0;
+    color: blue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+h2, h3, h4, h5, h6 {
+    color: blue;
+    background-color: red;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    position: relative;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+#profile-picture {  
+    border-radius: 25px;
+    background-color: red;
+    padding: 3px;
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+
+p {
+    background-color: red;
+    color: blue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+li {
+    line-height: 1.5em;
+    color: blue;
+    background: red;
+}
+
+#list-float {
+    width: 40%; 
+    float: left;
+}
+
+#list-float-right-img {
+    margin-right: 10%;
+    float: right;
+}
+
+#clear-float {
+    clear: both;
+}

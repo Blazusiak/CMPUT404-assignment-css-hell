@@ -8,62 +8,71 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <div class="heading">
-            <h1>Jacob Blazusiak</h1>
-        </div>
-        <div class="navigation">
+        <header>
+            <div class="container">
+                <h1>Jacob Blazusiak</h1>
             <nav>
-                <a href="">My GitHub</a>
-                <a href="">My LinkedIn</a>
+                <ul>
+                    <li><a href="https://github.com/Blazusiak">My GitHub</a></li>
+                    <li><a href="https://ca.linkedin.com/in/jacob-blazusiak-36a79b15a">My LinkedIn</a></li>
+                </ul>
             </nav>
-        </div>
-        <div class="profile-picture">
-            <img src="profile_picture.jpg">
-        </div>
-        <div class="intoduction">
+            </div>
+        </header>
+        <div class="container">
             <h2>Introduction</h2>
+            <img src="profile_picture.jpg" id="profile-picture">
             <p>Welcome to my profile page. My name is Jacob Blazusiak, I am a Junior Research Analyst Intern at the University of Alberta.
                 Currently, I am in my Fourth Year of Computing Science at the University of Alberta.
             </p>
         </div>
-        <div class="experience">
+        <div class="container">
             <h2>Experience</h2>
             <p>Some of my previous intern experiences include:</p>
             <ul>
+                <div id="list-float">
                 <li>Junior Research Analyst</li>
-                <ul>
-                    <li>Desktop Support</li>
-                    <li>Aiding Professors and Researchers with IT related problems</li>
-                    <li>Researching new IT technologies for the University of Alberta</li>
-                    <li>Providing IT solutions for Research Projects</li>
-                </ul>
+                    <ul>
+                        <li>Desktop Support</li>
+                        <li>Aiding Professors and Researchers with IT related problems</li>
+                        <li>Researching new IT technologies for the University of Alberta</li>
+                        <li>Providing IT solutions for Research Projects</li>
+                    </ul>
+                </div>
+                <div id="list-float-right-img">
                 <li>Web Developer</li>
-                <ul>
-                    <li>Creating HTML/CSS/JS for login/signup screens</li>
-                    <li>Writing Tests</li>
-                    <li>Upgrading current project to AngularJS</li>
-                    <li>Implemented error/success messages for modals</li>
-                </ul>
+                    <ul>
+                        <li>Creating HTML/CSS/JS for login/signup screens</li>
+                        <li>Writing Tests</li>
+                        <li>Upgrading current project to AngularJS</li>
+                        <li>Implemented error/success messages for modals</li>
+                    </ul>
+                </div>
             </ul>
         </div>
-        <div class="skills">
+        <div id="clear-float"></div>
+        <div class="container">
             <h2>Skills</h2>
             <p>Some of the skills I have acquired while being a student/intern:</p>
             <ul>
+                <div id="list-float">
                 <li>Programming Languages</li>
-                <ul>
-                    <li>Python</li>
-                    <li>C/C++</li>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                </ul>
+                    <ul>
+                        <li>Python</li>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div id="list-float">
                 <li>Technologies</li>
-                <ul>
-                    <li>Django</li>
-                    <li>Networking/Databases</li>
-                    <li>SQLite</li>
-                    <li>AngularJS</li>
-                </ul>
+                    <ul>
+                        <li>Django</li>
+                        <li>Networking/Databases</li>
+                        <li>SQLite</li>
+                        <li>AngularJS</li>
+                    </ul>
+                </div>
             </ul>
         </div>
     </body>
