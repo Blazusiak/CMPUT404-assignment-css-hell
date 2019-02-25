@@ -93,12 +93,12 @@ a:hover {
 /****** Class Styles *********/
 
 div.fig {
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
+    margin: 0;
+    height: auto;
     display: inline-block;
     text-align: center;
+    vertical-align: top;
+    position: relative;
 }
 
 div.middle {
@@ -107,6 +107,10 @@ div.middle {
     margin-bottom: auto;
     margin-left: auto;
     text-align: center;
+}
+
+div.book {
+    vertical-align: top;
 }
 
 .foot {
@@ -134,4 +138,21 @@ div.middle {
     margin-bottom: 2em;
     margin-left: auto;
     text-align: center;
+}
+
+P.illus {
+    text-align: center;
+}
+
+.title {
+    color: rgba(0,0,0,0.5);
+}
+
+.title2 {
+    color: rgba(0,0,0,0.5);
+}
+
+img {
+    -webkit-transform: scale(0.75);
+    border: 5px solid #654321
 }
